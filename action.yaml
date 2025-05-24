@@ -1,0 +1,16 @@
+name: 'Post SonarCloud Issues as PR Comments'
+description: 'Create GitHub PR comments from SonarCloud issues'
+inputs:
+  pr-number:
+    description: 'Pull request number'
+    required: true
+  project-key:
+    required: true
+  sonar-token:
+    required: true
+  github-token:
+    required: true
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
