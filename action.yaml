@@ -1,4 +1,4 @@
-name: 'Post SonarCloud Issues as PR Comments'
+name: 'SonarCloud comments/issues publisher'
 description: 'Create GitHub PR comments from SonarCloud issues'
 inputs:
   pr-number:
